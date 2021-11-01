@@ -1,5 +1,20 @@
 # routing
-Basics to find routes, etc on OSRM and google maps API. With R and python, etc.
+Basics to find routes, etc on OSRM and google maps API. With the help of packages/functions in R and python, etc.
+
+- [routing](#routing)
+- [Google maps](#google-maps)
+  - [Example](#example)
+- [OSRM](#osrm)
+  - [Example](#example-1)
+  - [Geocoding](#geocoding)
+  - [Vehicle routing](#vehicle-routing)
+  - [Setup osrm server](#setup-osrm-server)
+- [R](#r)
+  - [OSRM](#osrm-1)
+- [Python](#python)
+  - [Google maps](#google-maps-1)
+  - [OSRM](#osrm-2)
+- [References](#references)
 
 # Google maps
 https://www.google.com/maps  
@@ -70,25 +85,24 @@ docker run -p 9966:9966 osrm/osrm-frontend
 xdg-open 'http://127.0.0.1:9966'
 ```
 
-## R
+# R
 [routing.R](routing.R)
 
-### OSRM
+## OSRM
 https://www.r-bloggers.com/2017/09/building-a-local-osrm-instance/   
 https://rpubs.com/mbeckett/running-in-circles 
 
 
-## Python 
+# Python 
 [routing.ipynb](routing.ipynb)
 
-### Google maps
+## Google maps
 
 https://github.com/googlemaps/google-maps-services-python 
 https://thedatafrog.com/en/articles/show-data-google-map-python/ 
 https://www.codeforests.com/2021/01/23/plot-route-on-google-maps/ 
 
-
-### OSRM
+## OSRM
 https://pypi.org/project/osrm-py/  
 https://github.com/ustroetz/python-osrm 
 https://www.thinkdatascience.com/post/2020-03-03-osrm/osrm/  
