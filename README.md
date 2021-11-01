@@ -111,4 +111,4 @@ https://medium.com/swlh/route-optimization-leveraging-the-power-of-google-cloud-
 
 # References
 https://github.com/Project-OSRM/osrm-backend#using-docker  
-https://gist.github.com/AlexandraKapp/  e0eee2beacc93e765113aff43ec77789  
+https://gist.github.com/AlexandraKapp/e0eee2beacc93e765113aff43ec77789  
